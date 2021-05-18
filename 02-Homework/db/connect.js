@@ -1,5 +1,8 @@
-const util = require("util");
 const mysql = require("mysql");
+
+//needed for utility module
+const util = require("util");
+
 // const { resolve } = require("node:path");
 
 const connection = mysql.createConnection({
