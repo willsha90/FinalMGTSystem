@@ -22,7 +22,7 @@ async function directPrompts() {
         value: "VIEW_ROLES"
       },
       {
-        name: "View departments",
+        name: "View Departments",
         value: "VIEW_DEPARTMENTS"
       },
       {
@@ -30,11 +30,11 @@ async function directPrompts() {
         value: "ADD_EMPLOYEE"
       },
       {
-        name: "Add role",
+        name: "Add Role",
         value: "ADD_ROLE"
       },
       {
-        name: "Add department",
+        name: "Add Department",
         value: "ADD_DEPARTMENT"
       },
 
@@ -175,7 +175,7 @@ async function addRole() {
   console.log(` ${role.title} has been added`);
   directPrompts();
 }
-
+// view dpt function
 async function viewDepartments() {
   const departments = await db.findEachDpt();
 
